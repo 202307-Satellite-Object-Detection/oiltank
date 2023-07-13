@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KOMPSAT Product</name>
+	<open>1</open>
+	<Style id="strip_boundary">
+		<LineStyle>
+			<color>ffffff00</color>
+		</LineStyle>
+		<PolyStyle>
+		<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="scene_boundary">
+		<LineStyle>
+			<color>ffffff55</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Patch - OBJ03810_PS3_K3A_NIA0159</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Image</name>
+			<Icon>
+				<href>OBJ03810_PS3_K3A_NIA0159.PNG</href>
+				<scale>1.0</scale>
+			</Icon>
+			<gx:LatLonQuad>
+				<coordinates>
+					153.5065323427,-28.1651036203,0 153.5122689695,-28.1650822852,0 153.5122447625,-28.1599984357,0 153.5065084067,-28.1600197663,0
+				</coordinates>
+			</gx:LatLonQuad>
+		</GroundOverlay>
+	</Folder>
+</Document>
+</kml>
